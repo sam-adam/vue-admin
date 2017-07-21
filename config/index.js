@@ -20,6 +20,7 @@ module.exports = {
   },
   dev: {
     env: require('./dev.env'),
+    host: "tms.dev",
     port: process.env.DEV_PORT || 8080,
     autoOpenBrowser: true,
     assetsSubDirectory: 'assets',
